@@ -3,7 +3,7 @@ function extractNumber() {
  
     // Input string
     let str = "jhkj7682834";
-    console.log(str)
+    //console.log(str)
  
     // Using match with regEx
     let matches = str.match(/(\d+)/);
