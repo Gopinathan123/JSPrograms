@@ -1,8 +1,6 @@
-// Function to extract numbers
 function extractNumber() {
  
-    // Input string
-    let str = "jhkj7682834";
+   let str = "jhkj7682834";
     //console.log(str)
  
     // Using match with regEx
@@ -13,6 +11,4 @@ function extractNumber() {
         console.log(matches[0]);
     }
 }
- 
-// Function call
 extractNumber();

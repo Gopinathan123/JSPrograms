@@ -8,17 +8,18 @@
 // var b= 7+3+'2';
 // console.log(a,b)
 
-// var x = 2;
-// (function  ()
-// {
-// var x = 3;
-// (function random()
-// {
-// x++;
-// console.log(x);
-// var x = 21;
-// })()
-// })()
+var x = 2;
+(function  ()
+{
+var x = 3;
+(function random()
+{
+x++;
+console.log(x);
+var x=21;
+// let x = 21;
+})()
+})()
 
 // var array=[1,2,3,4,5];
 // console.log(array.splice(2));

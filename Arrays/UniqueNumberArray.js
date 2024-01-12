@@ -9,9 +9,7 @@ function UniqueNumber() {
                 }else{
                     count++;
                 }
-                
             }
-            
         }
         if(count==1)
         {

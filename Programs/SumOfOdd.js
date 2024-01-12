@@ -7,6 +7,6 @@ function AddOdd() {
             sum=sum+arr[i];
         }
     }
-    console.log("The sum of odd Numbers in an Array is "+sum);
+    console.log("The sum of odd Numbers in an Array is ",sum);
 }
 AddOdd()

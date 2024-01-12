@@ -10,3 +10,5 @@ console.log("printing reversed array");
 nums.forEach(function (val) {
     console.log(val);
 })
+const a=[10,12,13,15,16];
+console.log(`${a.at(2)}`);

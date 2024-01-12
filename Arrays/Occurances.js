@@ -23,15 +23,14 @@ function divisible() {
     for (let i = 0; i < arr1.length; i++) {
         let count=0;
         for (let j = 0; j < arr1.length; j++) {
-            if (arr1[i]==arr1[j]) {
+            if (arr1[i]===arr1[j]) {
                 if (i>j){
                     break;
                 }
                 else{
                     count++;
                 }
-            }
-            
+            }    
         }
          if (count>0) {
             console.log(arr1[i]+" occurs==> "+count+" times");
