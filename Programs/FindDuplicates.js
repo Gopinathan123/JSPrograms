@@ -18,7 +18,8 @@ function UniqueNumber() {
           if (arr1[i]==arr1[j]) {
               if (i>j) {
                   break;
-              }else{
+              }
+              else{
                   count++;
               }
           }
