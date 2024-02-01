@@ -11,7 +11,7 @@ function UniqueNumber() {
                 }
             }
         }
-        if(count==1)
+        if(count>=1)
         {
             console.log(arr1[i]+"==> "+count);
         }

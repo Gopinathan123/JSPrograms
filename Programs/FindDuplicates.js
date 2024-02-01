@@ -1,12 +1,35 @@
-//Array
-// function finddup() {
-//     const arrNum=[1,2,5,7,2,6,9,5]
-//     const duplicates=arrNum.filter((ele,index,arr)=>arr.indexOf(ele)!==index)
-//    // const unique=arrNum.filter((ele,index,arr)=>arr.indexOf(ele)===index)
-//     console.log(duplicates);
-//     // console.log(unique);
-// }
-// finddup();
+Array
+function finddup() {
+    const arrNum=[1,2,5,7,2,6,9,5]
+    const duplicates=arrNum.filter((ele,index,arr)=>arr.indexOf(ele)!==index)
+   // const unique=arrNum.filter((ele,index,arr)=>arr.indexOf(ele)===index)
+    console.log(duplicates);
+    // console.log(unique);
+}
+finddup();
+
+// ==================
+
+function UniqueNumber() {
+  let arr1=[1,2,5,7,2,6,9,5];
+  for (let i = 0; i < arr1.length; i++) {
+      let count=0;
+      for (let j = 0; j < arr1.length; j++) {
+          if (arr1[i]==arr1[j]) {
+              if (i>j) {
+                  break;
+              }else{
+                  count++;
+              }
+          }
+      }
+      if(count>=1)
+      {
+          console.log(`${arr1[i]}==>${count}`);
+      }
+  }
+}
+UniqueNumber()
 
 //-===============
 
@@ -35,32 +58,32 @@
 // dupstr("javascript");
 
 
-function findDuplicatesInString(str) {
-    const charCount = {};
-    const duplicates = [];
+// function findDuplicatesInString(str) {
+//     const charCount = {};
+//     const duplicates = [];
   
-    // Count each character's occurrences
-    for (let char of str) {
-      if (charCount[char]) {
-        charCount[char] += 1;
-      } else {
-        charCount[char] = 1;
-      }
-    }
+//     // Count each character's occurrences
+//     for (let char of str) {
+//       if (charCount[char]) {
+//         charCount[char] += 1;
+//       } else {
+//         charCount[char] = 1;
+//       }
+//     }
   
-    // Find characters with more than 1 occurrence
-    for (let char in charCount) {
-      if (charCount[char] > 1) {
-        duplicates.push(char);
-      }
-    }
+//     // Find characters with more than 1 occurrence
+//     for (let char in charCount) {
+//       if (charCount[char] > 1) {
+//         duplicates.push(char);
+//       }
+//     }
   
-    return duplicates;
-  }
+//     return duplicates;
+//   }
   
-  // Example usage
-  const str = "programming";
-  const duplicates = findDuplicatesInString(str);
+//   // Example usage
+//   const str = "programming";
+//   const duplicates = findDuplicatesInString(str);
   
-  console.log(`Duplicates: ${duplicates.join(', ')}`);
+//   console.log(`Duplicates: ${duplicates.join(', ')}`);
   
