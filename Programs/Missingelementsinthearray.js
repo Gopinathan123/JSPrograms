@@ -1,5 +1,6 @@
 function findMissingElements(arr) {
     const fullRange = Array.from({ length: 10 }, (_, index) => index + 1);
+    // console.log(fullRange);
     const missingElements = fullRange.filter(num => !arr.includes(num));
     
     return missingElements;
