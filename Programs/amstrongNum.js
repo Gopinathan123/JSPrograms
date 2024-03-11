@@ -33,6 +33,7 @@ function isArmstrongNumber(number) {
   }
 
   let num=54748;
+
   let amstrongNum=isArmstrongNumber(num);
   
   // Example usage
