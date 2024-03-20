@@ -8,5 +8,6 @@ for(let i=0;i<a.length;i++){
             break;
         }
     }
-    process.stdout.write(s.charAt(j)+" ");
+    console.log(s.charAt(j));
+    //process.stdout.write(s.charAt(j)+" ");
 }
