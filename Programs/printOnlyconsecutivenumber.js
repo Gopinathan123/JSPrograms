@@ -9,7 +9,6 @@ function findConsecutive(){
             else{
                 s1=s1+s.charAt(i+1);
             }
-           
         }
         else{
             console.log(s1);

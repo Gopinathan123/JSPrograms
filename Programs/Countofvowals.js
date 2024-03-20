@@ -6,14 +6,15 @@ function Countofvowals(str)
     for(let char of str){
         if(vowels.includes(char)){
             vowalscount++;
+            //console.log(char,vowalscount);
         }
         else if(char.toLowerCase() !==char.toUpperCase())
         {
             consonentcount++;
+           // console.log(char);
         }
     }
     return {vowalscount, consonentcount};
-    
 }
 const inputString="Test Yanra Software Solution";
 const counts=Countofvowals(inputString);

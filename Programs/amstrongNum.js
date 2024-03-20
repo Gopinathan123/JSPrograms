@@ -23,19 +23,16 @@ function isArmstrongNumber(number) {
       sum += digit ** numberOfDigits;
       temp = Math.floor(temp / 10);
     }
-  if(sum===number){
-    console.log(`${number} is an amstrong number`);
-  }
-  else{
-    console.log(`${number} is not an amstrong number`);
-  }
+    if(sum===number){
+      console.log(`${number} is an amstrong number`);
+    }
+    else{
+      console.log(`${number} is not an amstrong number`);
+    }
     //return sum === number;
-  }
-
+}
   let num=54748;
-
   let amstrongNum=isArmstrongNumber(num);
-  
   // Example usage
 //   console.log(isArmstrongNumber(54748));
   //console.log(`${num} is an amstrong number`);

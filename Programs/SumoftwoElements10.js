@@ -11,7 +11,7 @@ function findPairWithSumTen(arr) {
   }
   
   // Example usage
-  const array = [2, 4, 3, 7, 8];
+  const array = [2, 4, 3, 7, 8,6,1,9];
   const result = findPairWithSumTen(array);
   
 //   if (result) {

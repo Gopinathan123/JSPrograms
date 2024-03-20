@@ -26,7 +26,7 @@ function findMinMax(array) {
         minValue = array[i];
       }
       //if (array[i] > maxValue) {
-        else{
+        else if(array[i]>maxValue){
         maxValue = array[i];
       }
     }
@@ -35,7 +35,8 @@ function findMinMax(array) {
   }
   
   // Example usage
-  const array = [5, 1, 4, 2, 8];
+  // const array = [5, 1, 4, 2, 8, 9, 0];
+  const array = [4,11,4,10,15,16,12];
   const {minValue, maxValue} = findMinMax(array);
   
   console.log(`Minimum value: ${minValue}`); // Outputs the minimum value in the array

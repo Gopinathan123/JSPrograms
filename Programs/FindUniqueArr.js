@@ -24,7 +24,9 @@ function UniqueNumber() {
               }
           }
       }
-      if(count==1)
+      if(count>=1)  //find occurance of value
+      //if(count>1) //find Duplicates value
+      //if(count==1) // find unique value
       {
           console.log(`${arr1[i]}==>${count}`);
       }
