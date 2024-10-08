@@ -24,4 +24,5 @@ function ReverseStringFull(str){
     }
     const inputString="Test Yantra Software Solution"
     const reversedStr=ReverseStringFull(inputString);
-    console.log(reversedStr);
+    console.log(reversedStr)
+    
